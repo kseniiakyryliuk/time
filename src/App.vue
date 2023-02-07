@@ -68,7 +68,7 @@ lasttime:{
 
  }},
 created() {
-                setInterval(this.getNow, 1000);
+                setInterval(this.getNow, 100);
             },
             methods: {
                 getNow: function() {
